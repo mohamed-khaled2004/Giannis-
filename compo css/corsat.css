@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.contenr{
+    width: 100%;
+    height: auto;
+    gap: 1.5rem;
+    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+section{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenr section{
+    width: 95%;
+    height: 100%;
+    gap: 1.5rem;
+
+}
+section .nav1{
+    background-color:#12376B ;
+    text-align: center;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+
+}
+nav ul{
+    width: 100%;
+    color: #12376B;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration:none ;
+    font-size: 22px;
+    font-weight: 700;
+}
+/* From Uiverse.io by doniaskima */ 
+.btn-23,
+.btn-23 *,
+.btn-23 :after,
+.btn-23 :before,
+.btn-23:after,
+.btn-23:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-23 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.btn-23:disabled {
+  cursor: default;
+}
+
+.btn-23:-moz-focusring {
+  outline: auto;
+}
+
+.btn-23 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-23 [hidden] {
+  display: none;
+}
+
+.btn-23 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-23 span {
+  display: grid;
+  inset: 0;
+  place-items: center;
+  position: absolute;
+  transition: opacity 0.2s ease;
+}
+
+.btn-23 .marquee {
+  --spacing: 5em;
+  --start: 0em;
+  --end: 5em;
+  -webkit-animation: marquee 1s linear infinite;
+  animation: marquee 1s linear infinite;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  opacity: 0;
+  position: relative;
+  text-shadow: #fff var(--spacing) 0, #fff calc(var(--spacing) * -1) 0,
+    #fff calc(var(--spacing) * -2) 0;
+}
+
+.btn-23:hover .marquee {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  opacity: 1;
+}
+
+.btn-23:hover .text {
+  opacity: 0;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+
+  to {
+    transform: translateX(var(--end));
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+
+  to {
+    transform: translateX(var(--end));
+  }
+}
+
+header{
+    height: 20svh;
+    background: url("./img_wap/0fc3f864ac-1.webp") center/cover;
+    border-radius: 7px ;
+    align-items: center;
+}
+.row{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ebebeb;
+    border-radius: 12px;
+}
+.panel{
+    width:100%;
+    height: 130vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.panel .card{
+    
+        height: 59vh;
+}
+.disabled{
+    width: 100%;
+    height: 60vh;
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: #286CD5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius:5px ;
+}
+.disabled  aside{
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    background: #286CD5;
+
+}
+.disabled .img-thumbnail{
+    width: 50%;
+    height: 51vh;
+    /* background-color: #BF0426; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disabled .box-text{
+
+    width: 50%;
+    height: 51vh;
+    /* background-color: #F4A905; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.big-egite section{
+
+    width: 90%;
+    height: 90%;
+    border: 1px solid; 
+
+}
+.compo{
+    width: 100%;
+    height: 40vh;
+    /* background-color: darkblue; */
+}
+.big-egite section .compo .featns{
+     /* background: yellowgreen;  */
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+aside{
+    margin-bottom: 15px;
+    margin-top: 9px;
+    background: #286cd5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+aside .mohmed{
+    width: 50%;
+    height: 100%;
+}
+aside .khaled{
+    width: 50%;
+    height: 100%;
+}
+.big-egite{
+    width: 100%;
+    height: 70vh;
+    background-color: #F04B25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-siven .khaled div{
+    height: 75%;
+    width: 75%;
+    color: white;
+    /* border: 1px solid #12376B; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} 
+.big-egite section{
+
+    width: 90%;
+    height: 90%;
+    border: 1px solid; 
+
+}
+
+.big-egite section .compo .featns{
+    /* background: yellowgreen; */
+    width: 50%;
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.big-egite section{
+
+  width: 90%;
+  height: 90%;
+
+}
+
+.big-egite section .compo .featns{
+  width: 50%;
+  height: 43vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

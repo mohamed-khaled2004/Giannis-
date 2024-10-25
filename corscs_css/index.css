@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.contenr{
+    width: 100%;
+    height: 900vh;
+    gap: 1.5rem;
+    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.contenr section{
+    width: 80%;
+    height: 100%;
+    gap: 1.5rem;
+
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+
+}
+nav ul{
+    width: 100%;
+    color: #12376B;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration:none ;
+    font-size: 22px;
+    font-weight: 700;
+}
+.contenr2div{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction:column ;
+    
+}
+/* From Uiverse.io by Yaya12085 */ 
+.button {
+    width: fit-content;
+    display: flex;
+    padding: 1.2em 1rem;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 30px;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background-size: 300%;
+    color: #fff;
+    border: none;
+    background-position: left center;
+    box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+    transition: background .3s ease;
+  }
+  
+  .button:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  
+  .button:hover svg {
+    fill: #fff;
+  }
+  
+  .button svg {
+    width: 23px;
+    fill: #f09f33;
+    transition: .3s ease;
+  }
+.button-and button {
+
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+.big-egite{
+  width: 100%;
+  height: 70vh;
+  background-color: #F04B25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-siven .khaled div{
+  height: 75%;
+  width: 75%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+} 
+.big-egite section{
+
+  width: 90%;
+  height: 90%;
+
+}
+
+.big-egite section .compo .featns{
+  width: 50%;
+  height: 43vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
